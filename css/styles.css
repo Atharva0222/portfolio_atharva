@@ -153,6 +153,7 @@
      */
     --color-text        : var(--color-gray-4);
     --color-text-dark   : var(--color-white);
+    --color-text-white-dark : var(--color-gray-5);
     --color-text-light  : var(--color-gray-7);
     --color-placeholder : var(--color-gray-7);
 
@@ -2691,7 +2692,9 @@ img.u-pull-left {
     line-height : 1.0740;
     margin-top  : 0;
 }
-
+.text-huge-title:h2{
+    color: var(--color-gray-5);
+}
 /* ------------------------------------------------------------------- 
  * ## MailtoUI style overrides
  * ------------------------------------------------------------------- */
